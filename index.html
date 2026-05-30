@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Eduleb - Education HTML Template</title>
+</head>
+<body class="">
+    <!-- Navbar -->
+    <!--<nav class="position-sticky p-4 align-items-center border-bottom">
+            <div class="row">
+                <div class="col-2 justify-content-start align-items-center border">
+                    <a href="index.html"><img src="/images/logo.png" alt="Logo" class="img-fluid"></a>
+                </div>
+                <div class="col-7 border">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-3 text-center d-flex gap-5 justify-content-center align-items-center border" >
+                    <span><a href="#" class="text-decoration-none ">Sign In</a></span>
+                    <span><a href="#" class="text-decoration-none px-4 py-3 border">Sign Up</a></span>
+                </div>
+    </nav>-->
+
+    <nav class="navbar sticky-top navbar-expand-lg p-4 align-items-center border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-5" href="#"><img src="/images/logo.png" alt="Logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse px-5 align-items-center div-menu" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Home     
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home 01</a></li>
+                    <li><a class="dropdown-item" href="#">Home 02</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Course
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Course</a></li>
+                    <li><a class="dropdown-item" href="#">Course Details</a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Instructor</a></li>
+                    <li><a class="dropdown-item" href="#">Instructor Details</a></li>
+                    <li><a class="dropdown-item" href="#">Pricing Plan</a></li>
+                    <li><a class="dropdown-item" href="#">Faq Page</a></li>
+                    <li><a class="dropdown-item" href="#">404</a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog </a></li>
+                    <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div class="align-items-center pe-5 div-sign" >
+                <span><a href="#" class="text-decoration-none div-sign1">Sign In</a></span>
+                <span><a href="#" class="text-decoration-none px-4 py-3 div-sign2">Sign Up</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+     <section class="hero-section container-fluid pb-0 position-relative"> 
+        <div class="row">
+            <div class="col-lg-7 mb-3 hero-text">
+                <p><span>Smart Study</span> Where Knowledge Meets the Web</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipiscing elit tempor ut labore</span>
+                <nav class="navbar"> <!-- bg-body-tertiary -->
+                    <div class="container-fluid">
+                        <form class="d-flex align-items-center justify-content-end " role="search">
+                        <input class="form-control position-relative" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success position-absolute div-sign2" type="submit">Search<i class="bi bi-send"></i></button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="position-relative col-lg-5 mb-3 hero-img"><!--  -->
+                <img src="/images/home-img2.png" alt="Hero Image" class="pb-0">
+                <div class="etiquette position-absolute">
+                    <div class="d-flex align-items-start justify-content-start gap-1 ps-3">
+                        <i class="bi bi-person-fill bg-light border border-secondary rounded-circle px-2 py-1 mt-2"></i>
+                        <div clas="d-block"><p>4500+</p><span>Active Students</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+
+     <!-- section etiquettes -->
+    <section class="container-fluid position-absolute section-etiquettes">
+        <div class="row g-3 justify-content-center align-items-start">
+            <div class="col-12 col-md-6 col-lg-3 border border-secondary etiquettes">
+                <div class="d-flex align-items-start justify-content-start gap-1 ps-3">
+                    <i class="bi bi-folder bg-light border border-secondary rounded-circle px-2 py-1 mt-2"></i>
+                    <div clas="d-block"><p>134</p><span>Our Online Course</span></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 border border-secondary etiquettes">
+                <div class="d-flex align-items-start justify-content-start gap-1 ps-3">
+                    <i class="bi bi-award bg-light border border-secondary rounded-circle px-2 py-1 mt-2"></i>
+                    <div clas="d-block"><p>229</p><span>Academic Programs</span></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 border border-secondary etiquettes">
+                <div class="d-flex align-items-start justify-content-start gap-1 ps-3">
+                    <i class="bi bi-person-badge bg-light border border-secondary rounded-circle px-2 py-1 mt-2"></i>
+                    <div clas="d-block"><p>684</p><span>Certified Students</span></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 border border-secondary etiquettes" >
+                <div class="d-flex align-items-start justify-content-start gap-1 ps-3">
+                    <i class="bi bi-person-fill bg-light border border-secondary rounded-circle px-2 py-1 mt-2"></i>
+                    <div clas="d-block"><p>941</p><span>Enrolled Students</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section start -->
+    <section>
+        <div class="container-fluid position-relative div-start">
+            <div class="div-start-text text-center ">
+                <h2>Start your journey With us</h2>
+                <p class="px-5">We offer a brand new approach to the most basic learning paradigms. Choose from a wide range of learning options and gain new skills! Our school is know.</p>
+            </div>
+            <div class="row div-start-cartes">
+                <div class="col-12 col">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

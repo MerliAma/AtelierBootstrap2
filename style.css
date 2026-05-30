@@ -1,0 +1,287 @@
+/*pr la police : Jost */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --couleurPrincipale: #525FE1;
+    --PolicePrincipale: 'Jost', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--PolicePrincipale);
+}
+
+ /* Style pour la barre de navigation */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.978);
+    margin-top: 7px;
+    padding-bottom: 7px;
+    transition: all 0.4s ease
+}
+
+.navbar ul:hover {
+    color: var(--couleurPrincipale);
+}
+
+.logo{
+    margin-right: 45px;
+}
+
+.div-menu li{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+    color: black;
+}
+
+.div-sign {
+        display:flex;
+        gap: 20px;
+        margin-right: 25px;
+        font-weight: 600;
+}
+
+.div-sign1 {
+    color: black;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.div-sign2 {
+    color: white;
+    background-color: var(--couleurPrincipale);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.div-sign1:hover {
+    color: var(--couleurPrincipale);
+}
+
+.div-sign2:hover {
+    background-color: rgb(230, 49, 49);
+}
+
+@media (max-width: 999px) {
+
+    .div-sign {
+        display:none;
+    }
+
+    
+
+    .logo{
+        margin-right:-45px;
+    }
+
+}
+
+/* Style pour la section hero */
+.hero-section {
+    background-image: url('images/home-bg.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 140px;
+    padding-left: 120px;
+    padding-right: 185px;
+    
+}
+
+.hero-text{
+    /*padding-left: 50px;*/
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+
+.hero-text p {
+    font-size: 64px;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 90px;
+    color: #0B104A;
+    line-height: 1.15;
+}
+
+.hero-text p span {
+    color: #525FE1;
+}
+
+.hero-text>span {
+    font-size: 17px;
+    text-align: right;
+    color:#0c0c0cbd
+}
+
+.hero-section .navbar {
+    background-color: transparent !important;
+    margin-top: 25px;
+}
+.hero-section .navbar div {
+    padding:0%;
+}
+
+.hero-section form{
+    width: 100%;
+    position: relative;
+    border: 1px solid #8d8989d0;
+}
+
+.hero-section input{
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 0px;
+    padding-right: 150px;
+}
+
+.hero-section button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.hero-section button i{
+    margin: 5px;
+    text-align: center;
+}
+
+/*.hero-img {
+    border: 1px solid #8d8989d0;
+    margin-bottom: auto;
+}
+
+.hero-img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+@media (max-width: 999px) {
+    .hero-section {
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 40px;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .hero-text p {
+    font-size: 35px;
+    line-height: 1.3;
+    }
+
+.hero-text>span {
+    font-size: 18px;
+    text-align: left;
+    }
+
+    .hero-section .navbar {
+        display: none;
+    }
+    .hero-img {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+    .hero-img img {
+        width: 80%;
+        height: auto;
+        display: block;
+        
+    }
+    
+}
+
+/* Style pour etiquette */
+.etiquette {
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    width:45%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    top: 45%;
+    left: 75%;
+}
+
+.etiquette p, .etiquettes p  {
+    font-size: 32px;
+    color: #0B104A;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.etiquette span, .etiquettes span  {
+    color: #4A5355;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.etiquette p, .etiquette span{
+    margin: 0;
+}
+
+.section-etiquettes{
+    margin-top: -35px;
+    padding-bottom: 100px;
+}
+
+.etiquettes {
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 290px;
+    margin: 0 23px;
+    padding: 0.5rem;
+    height: 100px;
+}
+
+@media (max-width: 1300px) {
+    .etiquette {
+    top: 45%;
+    left: 50%;
+    width: 50%;
+    
+    }
+}
+
+.div-start {
+    background-image: url('images/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 185px;
+}
+
+.div-start-text h2{
+    font-size: 40px;
+    color: #0B104A;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
