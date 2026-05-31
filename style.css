@@ -259,7 +259,7 @@
     height: 100px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 999px) {
     .etiquette {
     top: 45%;
     left: 50%;
@@ -276,7 +276,11 @@
     margin-top: 120px;
     padding-top: 50px;
     padding-left: 120px;
-    padding-right: 185px;
+    padding-right: 120px;
+}
+
+.div-start-text{
+    margin-bottom: 50px;
 }
 
 .div-start-text h2{
@@ -286,7 +290,16 @@
     padding-bottom: 10px;
 }
 
-@media (max-width: 1300px) {
+.div-start-cartes{
+    background-color: white;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    height:230px;
+    align-content: center;
+    
+}
+
+@media (max-width: 999px) {
 
     .section-etiquettes{
     margin-top: 100px;
@@ -294,7 +307,25 @@
     }
 
     .div-start {
-    margin-top: 400px;
-    
+    margin-top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
     }
+
+    .div-start-cartes{
+    align-content: center;
+    margin: 20px 15px;
+    }
+}
+
+/* Style pour section Find out */
+.section-findout {
+    background-image: url('images/section-2.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
