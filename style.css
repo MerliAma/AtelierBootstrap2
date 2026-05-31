@@ -254,7 +254,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 290px;
-    margin: 0 23px;
+    margin: 0 13px;
     padding: 0.5rem;
     height: 100px;
 }
@@ -284,4 +284,17 @@
     color: #0B104A;
     font-weight: 600;
     padding-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
+
+    .section-etiquettes{
+    margin-top: 100px;
+    /*margin-bottom: auto;*/
+    }
+
+    .div-start {
+    margin-top: 400px;
+    
+    }
 }
